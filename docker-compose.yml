@@ -1,0 +1,20 @@
+version: '3'
+services:
+  flask-nra:
+    image: localhost:5000/flask-nra:local-v2
+    ports:
+      - 5004:5000
+    networks:
+      - student-list-nw
+  website-nra:
+    image: php:apache
+    volumes:
+      - ./website:/var/www/html
+    ports:
+      - 8002:80
+    depends_on:
+      - flask-nra
+    networks:
+      - student-list-nw
+networks:
+  student-list-nw:

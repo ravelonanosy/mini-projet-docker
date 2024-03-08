@@ -27,8 +27,7 @@ When POZOS needs to deploy a new release, every time some goes wrong.
 In conclusion, POZOS needs agility on its software farm.
 
 ## Infrastructure
-
-Centos 7 was deployed with vagrant as part of this project.
+A Centos 7 virtual machine was deployed locally on virtualbox with vagrant.
 
 ## Application
 

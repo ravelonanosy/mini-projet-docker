@@ -63,8 +63,10 @@ application files:
 ## Build and test
 
 Here are the different technical stages of the project:
--build images docker
+
+- build images docker
 docker build -t flask-nra:v3 .
+docker images
 ![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/852319b5-46c7-48b7-9821-3a1f8eedb2b3)
 
 

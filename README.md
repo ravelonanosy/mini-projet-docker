@@ -50,16 +50,13 @@ A Centos 7 virtual machine including the docker package was deployed locally on 
 
 
 application files:
-- docker-compose.yml: to launch the application (API and web app)
-- Dockerfile: the file that will be used to build the API image (details will be given)
+- docker-compose.yml: to launch the application
+- docker-compose-registry.yml : to lanch private registry application
+- Dockerfile: the file that will be used to build the API image 
 - requirements.txt: contains all the packages to be installed to run the application
 - student_age.json: contain student name with age on JSON format
 - student_age.py: contains the source code of the API in python
-- index.php: PHP  page where end-user will be connected to interact with the service to - list students with age. You need to update the following line before running the website container to make ***api_ip_or_name*** and ***port*** fit your deployment
-
-```bash 
- $url = 'http://<api_ip_or_name:port>/pozos/api/v1.0/get_student_ages';
- ```
+- index.php: PHP  page where end-user will be connected to interact with the service to - list students with age.
 
 
 

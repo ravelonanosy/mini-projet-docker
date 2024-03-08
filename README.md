@@ -64,7 +64,7 @@ application files:
 
 Here are the different technical stages of the project:
 
-- build images docker:
+1- build images docker:
 
 docker build -t flask-nra:v3 .
 

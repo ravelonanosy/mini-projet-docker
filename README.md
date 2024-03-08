@@ -76,6 +76,10 @@ docker images
 
 creation of a “bridge type” network to place the 2 containers
 
+docker network create student-list-nw
+
+![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/d7303589-189b-4245-a7ec-b8513136e466)
+
 
 ```
 

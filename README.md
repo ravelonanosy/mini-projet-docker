@@ -44,7 +44,7 @@ student_list has two modules:
 
 To run this "student-list" application, my work is focused on:
 - deployment of these 2 modules in docker containers which are interacting
-- archiving images in a private registry
+- archiving images docker in a private registry
 
 ## My plan
 - docker-compose.yml: to launch the application (API and web app)

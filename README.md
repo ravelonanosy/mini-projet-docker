@@ -26,8 +26,6 @@ When POZOS needs to deploy a new release, every time some goes wrong.
 
 In conclusion, POZOS needs agility on its software farm.
 
-## Infrastructure
-A Centos 7 virtual machine was deployed locally on virtualbox with vagrant.
 
 ## Application
 
@@ -46,7 +44,12 @@ To run this "student-list" application, my work is focused on:
 - deployment of these 2 modules in docker containers which are interacting
 - archiving images docker in a private registry
 
-## My plan
+## Implementation
+infracstructure:
+A Centos 7 virtual machine including the docker package was deployed locally on virtualbox with vagrant.
+
+
+application files:
 - docker-compose.yml: to launch the application (API and web app)
 - Dockerfile: the file that will be used to build the API image (details will be given)
 - requirements.txt: contains all the packages to be installed to run the application

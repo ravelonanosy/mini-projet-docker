@@ -39,13 +39,7 @@ student_list has two modules:
 - the first module is a REST API (with basic authentication needed) who send the desire list of the student based on JSON file
 - The second module is a web app written in HTML + PHP who enable end-user to get a list of students
 
-Your work is to build one container for each module an make them interact with each other
-
-Application source code can be found [here](https://github.com/diranetafen/student-list.git "here")
-
-The files that you must provide (in your delivery) are ***Dockerfile*** and ***docker-compose.yml***  (currently both are empty)
-
-Now it is time to explain you each file's role:
+## the need
 
 - docker-compose.yml: to launch the application (API and web app)
 - Dockerfile: the file that will be used to build the API image (details will be given)

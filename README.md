@@ -88,11 +88,15 @@ docker ps -a |grep registry
 
 ![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/c1b76e0d-9803-49d2-b800-2ef396b1c532)
 
+4-After testing the image with a "docker run" command line, the image was then sent to the local registry:
 
+docker tag 4b865a5312ca localhost:5000/flask-nra:local-v3
 
+docker push localhost:5000/flask-nra:local-v3
 
+![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/a215442f-f78d-4f62-a971-ec487c06535a)
 
-4- create application'containers using docker-compose :
+5- create application'containers using docker-compose and the image on the local registry :
 
 docker compose -f docker-compose.yml up -d
 

@@ -104,10 +104,11 @@ docker ps -a
 
 ![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/93b26d43-57b2-495f-bb82-d4e160da1647)
 
+6- test curl of API:
 
-```
+![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/0c3a178f-3a3d-499c-ba3b-e07661fc3629)
 
-Build your image and try to run it (don't forget to mount *student_age.json* file at */data/student_age.json* in the container), check logs and verify that the container is listening and is  ready to answer
+
 
 Run this command to make sure that the API correctly responding (take a screenshot for delivery purpose)
 ```bash 

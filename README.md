@@ -72,6 +72,10 @@ docker images
 
 ![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/852319b5-46c7-48b7-9821-3a1f8eedb2b3)
 
+2- create network :
+
+creation of a “bridge type” network to place the 2 containers
+
 
 ```
 

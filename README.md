@@ -96,6 +96,10 @@ docker push localhost:5000/flask-nra:local-v3
 
 ![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/a215442f-f78d-4f62-a971-ec487c06535a)
 
+
+![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/85b47558-cd94-4b06-99ff-f37b3afcc4cf)
+
+
 5- create application'containers using docker-compose and the image on the local registry :
 
 docker compose -f docker-compose.yml up -d

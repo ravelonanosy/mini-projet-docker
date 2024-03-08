@@ -39,8 +39,14 @@ student_list has two modules:
 - the first module is a REST API (with basic authentication needed) who send the desire list of the student based on JSON file
 - The second module is a web app written in HTML + PHP who enable end-user to get a list of students
 
-## the need
+## The need
 
+
+To run this "student-list" application, my work is focused on:
+-deployment of these 2 modules in docker containers which are interacting
+-archiving images in a private registry
+
+## My plan
 - docker-compose.yml: to launch the application (API and web app)
 - Dockerfile: the file that will be used to build the API image (details will be given)
 - requirements.txt: contains all the packages to be installed to run the application

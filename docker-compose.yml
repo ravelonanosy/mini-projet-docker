@@ -1,7 +1,7 @@
 version: '3'
 services:
   flask-nra:
-    image: localhost:5000/flask-nra:local-v2
+    image: localhost:5000/flask-nra:local-v3
     ports:
       - 5004:5000
     networks:

@@ -1,4 +1,5 @@
-FROM python:3.8-slim-buster
+FROM python:3.8-bullseye
+MAINTAINER nanja (romario117910@gmail.com)
 
 RUN apt-get update
 #RUN apt-get -y install gcc
@@ -11,6 +12,5 @@ COPY requirements.txt /usr/src/app/
 RUN pip3 install -r /usr/src/app/requirements.txt
 
 COPY . /usr/src/app/
-
 
 CMD ["python", "student_age.py"]

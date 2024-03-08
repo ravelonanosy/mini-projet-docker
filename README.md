@@ -45,7 +45,7 @@ To run this "student-list" application, my work is focused on:
 - archiving images docker in a private registry
 
 ## Implementation
-infracstructure:
+infrastructure:
 A Centos 7 virtual machine including the docker package was deployed locally on virtualbox with vagrant.
 
 

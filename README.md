@@ -102,6 +102,7 @@ docker compose -f docker-compose.yml up -d
 
 docker ps -a
 
+![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/93b26d43-57b2-495f-bb82-d4e160da1647)
 
 
 ```

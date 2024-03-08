@@ -60,47 +60,9 @@ application files:
 
 
 
-## Build and test (7 points)
+## Build and test
 
-POZOS will give you information to build the API container
 
-- Base image
-
-To build API image you must use "python:3.8-buster"
-
-- Maintainer
-
-Please don't forget to specify the maintainer information
-
-- Add the source code
-
-You need to copy the source code of the API in the container at the root "/" path
-
-- Prerequisite
-
-The API is using FLASK engine,  you need to install some package 
-Copy the requirements.txt file into the container in the root "/" directory to install the packages needed to start up our application
-
-to launch the installation, use this command
-
-```bash
-pip3 install -r /requirements.txt
-```
-- Persistent data (volume)
-
-Create data folder at the root "/" where data will be stored and declare it as a volume
-
-You will use this folder to mount student list
-
-- API Port
-
-To interact with this API expose 5000 port
-
-- CMD
-
-When container start, it must run the student_age.py (copied at step 4), so it should be something like
-```bash 
-CMD [ "python", "./student_age.py" ]
 ```
 
 Build your image and try to run it (don't forget to mount *student_age.json* file at */data/student_age.json* in the container), check logs and verify that the container is listening and is  ready to answer

@@ -70,8 +70,7 @@ docker build -t flask-nra:v3 .
 
 docker images
 
-![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/5b581bdc-87d5-48d0-88f1-0563d0ac9d78)
-
+![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/7661dac8-20bf-4b72-88bc-8758746f92aa)
 
 2- create network :
 

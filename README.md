@@ -8,7 +8,7 @@ This repo is a simple application to list student with a webserver (PHP) and API
 
 
 
-## context
+## Context
 
 *POZOS*  is an IT company located in France and develops software for High School.
 

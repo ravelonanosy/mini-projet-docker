@@ -8,7 +8,7 @@ This repo is a simple application to list student with a webserver (PHP) and API
 
 
 
-
+## context
 
 *POZOS*  is an IT company located in France and develops software for High School.
 
@@ -28,15 +28,7 @@ In conclusion, POZOS needs agility on its software farm.
 
 ## Infrastructure
 
-For this POC, you will only use one single machine with a docker installed on it.
-
-The build and the deployment will be made on this machine.
-
-POZOS recommends you to use centos7.6 OS because it's the most used in the company.
-
-Please also note that you are authorized to use a virtual machine base on Centos7.6 and not your physical machine.
-
-The security is a very critical aspect of POZOS DSI so please do not disable the firewall or other security mechanisms otherwise please explain your reasons in your delivery.
+Centos 7 was deployed with vagrant as part of this project.
 
 ## Application
 

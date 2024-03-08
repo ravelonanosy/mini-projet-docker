@@ -81,6 +81,23 @@ docker network create student-list-nw
 
 ![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/e4a747fc-8a32-431a-815f-9eee0cb2d7a3)
 
+3-create containers for local registry using docker-compose:
+
+docker compose -f docker-compose-registry.yml up -d
+
+docker ps -a |grep registry
+
+![image](https://github.com/ravelonanosy/mini-projet-docker/assets/138290448/54c338d5-b798-4d0c-828f-25f8ee9017f7)
+
+
+
+
+4- create application'containers using docker-compose :
+
+docker compose -f docker-compose.yml up -d
+
+docker ps -a
+
 
 
 ```
